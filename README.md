@@ -68,7 +68,7 @@ npm install
 # Start Expo server
 npm start
 
-# Or for specific platforms
+# Or run on specific platforms
 npm run android
 npm run ios
 npm run web
@@ -87,9 +87,9 @@ npm run web
 ## 📦 Key Dependencies
 
 ```json
-"expo": "~46.0.16",
-"react-native": "0.69.6",
-"react": "18.0.0",
+"expo": "~54.0.23",
+"react-native": "0.82.1",
+"react": "^19.2.0",
 "@react-navigation/native": "^6.0.12",
 "@react-navigation/native-stack": "^6.8.0"
 ```
