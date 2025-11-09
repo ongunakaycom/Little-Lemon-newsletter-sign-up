@@ -98,7 +98,7 @@ npm run web
 
 ## 👨‍💻 About Me
 
-I'm **Ongun Akay**, a Senior Full-Stack Developer.
+I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various technologies.
 
 * 👀 Specialize in full-stack development with strong frontend and backend skills
 * 🌱 Currently learning advanced web development concepts
