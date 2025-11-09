@@ -1,50 +1,52 @@
 # 📨 Little Lemon – Newsletter Sign-Up App
 
-**Little Lemon Newsletter Sign-Up** is a mobile application built using **React Native** and **Expo**. This app simulates a simple onboarding flow where users can subscribe to the fictional Little Lemon newsletter. It features elegant screen transitions using **React Navigation**, along with a clean and minimal user interface.
+**Little Lemon Newsletter Sign-Up** is a mobile app built with **React Native** and **Expo**.
+It simulates a **simple onboarding flow** where users can subscribe to the fictional Little Lemon newsletter, featuring **smooth screen transitions** and a **clean, minimal UI**.
 
 ---
 
-## 🧱 Stack Overview
+## 🧱 Tech Stack
 
-| Layer         | Technology              |
-|--------------|--------------------------|
-| Framework     | React Native (Expo)      |
-| Language      | JavaScript (ES6)         |
-| Navigation    | React Navigation         |
-| Styling       | React Native Stylesheet  |
-| Assets        | Custom Little Lemon logo |
-| Platform      | Android, iOS, Web        |
+| Layer      | Technology                |
+| ---------- | ------------------------- |
+| Framework  | React Native (Expo)       |
+| Language   | JavaScript (ES6)          |
+| Navigation | React Navigation          |
+| Styling    | React Native Stylesheet   |
+| Assets     | Custom Little Lemon logos |
+| Platform   | Android, iOS, Web         |
 
 ---
 
 ## 🧪 Features
 
-✅ Welcome screen with logo and intro message  
-✅ Subscription screen with input validation  
-✅ Screen-to-screen navigation  
-✅ Expo starter configuration for cross-platform support  
-✅ Reusable utility functions in `utils/`
+* ✅ Welcome screen with logo and intro message
+* ✅ Subscription screen with **input validation**
+* ✅ Screen-to-screen navigation using React Navigation
+* ✅ Expo starter configuration for **cross-platform support**
+* ✅ Reusable utility functions in `utils/`
 
 ---
 
-## 📁 Directory Structure
+## 📁 Project Structure
 
 ```
 Little-Lemon-newsletter-sign-up/
-├── assets/                    # App icons and branding
+├── assets/                    # App icons, logos, splash screens
 │   ├── little-lemon-logo.png
 │   └── splash.png
 ├── navigators/               # Navigation stack setup
 │   └── RootNavigator.js
 ├── screens/                  # App screens
-│   ├── SubscribeScreen.js
-│   └── WelcomeScreen.js
+│   ├── WelcomeScreen.js
+│   └── SubscribeScreen.js
 ├── utils/                    # Shared utility functions
 │   └── index.js
 ├── App.js                    # Entry point
 ├── little_lemon.gif          # Demo animation
-├── app.json                  # Expo app config
+├── app.json                  # Expo config
 ├── package.json              # Dependencies
+├── package-lock.json
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -52,36 +54,37 @@ Little-Lemon-newsletter-sign-up/
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Running Locally
 
-### 📦 Install Dependencies
+### 1️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 📱 Start App
+### 2️⃣ Start App
 
 ```bash
 # Start Expo server
 npm start
-# OR for specific platforms:
+
+# Or for specific platforms
 npm run android
 npm run ios
 npm run web
 ```
 
-> Requires Expo Go on mobile, or iOS/Android simulator installed.
+> Requires **Expo Go** on mobile or iOS/Android simulator installed.
 
 ---
 
-## 🎞️ Demo
+## 🎞 Demo
 
 ![Little Lemon Newsletter Flow](./little_lemon.gif)
 
 ---
 
-## 📦 Dependencies
+## 📦 Key Dependencies
 
 ```json
 "expo": "~46.0.16",
@@ -93,17 +96,19 @@ npm run web
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various technologies.
+I'm **Ongun Akay**, a Senior Full-Stack Developer.
 
-- 👀 I specialize in full-stack development with extensive experience in frontend and backend technologies.
-- 🌱 Currently, I'm sharpening my skills in advanced concepts of web development.
-- 💞️ I’m always open to exciting collaborations and projects that challenge my abilities.
-- 📫 You can reach me at [info@ongunakay.com](mailto:info@ongunakay.com).
+* 👀 Specialize in full-stack development with strong frontend and backend skills
+* 🌱 Currently learning advanced web development concepts
+* 💞️ Open to exciting collaborations and challenging projects
+* 📫 Contact: [info@ongunakay.com](mailto:info@ongunakay.com)
 
 ---
 
 ## 📄 License
 
 MIT License – See [`LICENSE`](./LICENSE)
+
+---
