@@ -1,3 +1,20 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Expo
+.expo/
+.expo-shared/
+
+# React Native / Expo build output
+android/
+ios/
+web-build/
+dist/
+
 # Gradle files
 .gradle/
 build/
@@ -7,6 +24,7 @@ local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
 
 # Android Studio generated files and folders
 captures/
@@ -16,7 +34,7 @@ captures/
 *.apk
 output-metadata.json
 
-# IntelliJ
+# IntelliJ / IDE
 *.iml
 .idea/
 misc.xml
@@ -32,4 +50,3 @@ google-services.json
 
 # Android Profiling
 *.hprof
-/node_modules
